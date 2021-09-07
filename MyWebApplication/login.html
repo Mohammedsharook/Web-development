@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous"
+    />
+    <title>My Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+                
+        </div>
+
+        <form id="form" autocomplete="off">
+            <div class="social">
+                <div class="title">Get Started</div>
+                <div class="question">
+                    Don't Have An Account? <br>
+                    <a href="register.html" style="color: tomato;text-decoration: none;">Sign Up</a>
+                </div>
+
+                <div class="btn">
+                    <div class="btn-1">
+                        <img 
+                        src="https://img.icons8.com/color/30/000000/google-logo.png"
+                        />
+                        Sign Up
+                    </div>
+                    <div class="btn-2">
+                        <img src="https://img.icons8.com/color/32/ffffff/facebook-circled.png"/>
+                        Sign Up
+                    </div> 
+                </div>
+
+                <div class="or">Or</div>
+            </div>
+            <!-- 
+                User name email
+            -->
+            <div>
+                <label for="email">Email</label>
+                <i class="fas fa-envelope-open"></i>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com">
+                <i class="far fa-thumbs-up success-icon"></i>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <div class="error"></div>
+            </div>
+             <!-- 
+                User name password
+            -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password Here">
+                <i class="far fa-thumbs-up success-icon"></i>
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <div class="error"></div>
+            </div>
+
+            <button type="submit" id="submit">Log In</button>
+        </form>
+    </div>
+
+</body>
+<script src="login_logic.js"></script>
+<footer>
+    <div>
+        <a class="sha" href="mailto: aydensharu@gmail.com">
+            <img src="https://img.icons8.com/plasticine/40/000000/gmail-new.png"><br>
+        </a> Mail Me !
+    </div>
+</footer>
+</html>
